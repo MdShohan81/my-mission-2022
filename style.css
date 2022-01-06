@@ -1,43 +1,54 @@
-body{
+body {
     margin: 0%;
     font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
 }
+
 /*head section start*/
-#header-area{
+.flex{
     display: flex;
+}
+#header-area {
     padding: 0% 10%;
 }
-.header{
+
+.header {
     width: 50%;
 }
-.header-text{
+
+.header-text {
     margin-top: 100px;
-    
+
 
 }
-.header-text h1{
+
+.header-text h1 {
     font-size: 50px;
     color: #333333;
     letter-spacing: 2px;
-    border-left:3px solid #FF5959;
+    border-left: 3px solid #FF5959;
     padding-left: 15px;
-    
+
 }
-.header-text h1 span{
+
+.header-text h1 span {
     display: block;
-    color:#FFAD5A;
+    color: #FFAD5A;
     letter-spacing: 2px;
     line-height: 45px;
-   
+
 }
-.header-text p{
+
+.header-text p {
     text-align: start;
-    font-size: 17;
+    font-size: 17px;
     padding-right: 10%;
     margin-bottom: 50px;
+    color: #5E5E5E;
 }
-.header-text .btn{
-    
+
+.btn {
+
     color: white;
     background-color: #FF5959;
     text-decoration: none;
@@ -45,18 +56,182 @@ body{
     padding: 8px 20px;
     border-radius: 5px;
 }
-.header-text h4{
+
+.header-text h4 {
     font-size: 17px;
     margin-top: 40px;
     font-weight: lighter;
 }
 
-.header img{
-    width: 100%;
+.header img {
+    width: 80%;
     height: auto;
-    padding-top: 5%;
-    padding-right: 10%;
-    
+    padding-top: 10%;
+    padding-left: 8%;
 }
 
 /*head section end*/
+/* mission area start*/
+#mission-area {
+    margin: 100px 0;
+
+}
+
+#mission-area h1 {
+    color: #13103A;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px ;
+}
+
+#mission-area span {
+    color: #FFAD5A;
+}
+
+.mission-bottom-area {
+    display: flex;
+}
+
+.mission-item {
+    width: 30%;
+    margin: 0% 3%;
+    padding: 2%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.mission-item p{
+    color: #5E5E5E;
+}
+#mission-item-1{
+    background-color: #EDF5F6;
+}
+#mission-item-2{
+    background-color: #FFEEEE;
+}
+#mission-item-3{
+    background-color: #FFF4D6;
+}
+.mission-item img{
+    width: 30%;
+}
+/*mission area end*/
+/*develop area start*/
+.develop-area{
+    background-image: url(img/bg/develop-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    margin-bottom:100px;
+    margin-left: 30px;
+
+}
+.develop{
+    width:50%;
+    padding: 0% 8%;
+}
+
+.develop img{
+    width: 90%;
+}
+.develop-text{
+    margin-top: 4%;
+}
+.develop h1{
+    color: #333333;
+    font-size: 30px;
+    
+}
+.develop span{
+    display: block;
+}
+.develop p{
+    color: #636363;
+    font-size:16px;
+    margin-top:-10px;
+}
+/*develop area end*/
+/*about area start*/
+.about{
+    width:50%;
+    padding: 0% 8%;
+}
+
+.about img{
+    width: 90%;
+}
+.about-text{
+    margin-top:  4%;
+}
+.about h1{
+    color: #333333;
+    font-size: 30px;
+    
+}
+.about span{
+    display: block;
+}
+.about p{
+    color: #636363;
+    font-size:16px;
+    margin-top:-10px;
+}
+
+/* about area end*/
+/* contact area start*/
+#contact-us{
+    text-align: center;
+    margin-top: 60px;
+    background-color: #EDF5F6;
+    padding: 70px;
+
+}
+#contact-us h1{
+    color: #FF5959;
+    font-size: 30px;
+}
+#contact-us span{
+    color:#FFAD5A;
+}
+.form{
+    width: 50%;
+    margin-left: 24%;
+}
+.form .form-group{
+    margin-bottom: 20px;
+
+}
+.form-group label{
+    display: block;
+    text-align: start;
+    font-size: 20px;
+    color:#FF5959;
+}
+.form-group input{
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 17px;
+    border:2px solid #FF5959;
+}
+/*contact section end*/
+/*footer area start*/
+footer{
+    background-color: #0B0D17;
+    padding: 1% 0%;
+    text-align: center;
+}
+footer h2{
+    color: white;
+    font-family: cursive ;
+    font-size: 35px
+}
+footer h2 span{
+    color:#FF5959;  
+}
+footer p{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+/*footer area end*/
