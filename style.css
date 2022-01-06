@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/*head section start*/
+/*head area start*/
 .flex{
     display: flex;
 }
@@ -70,7 +70,7 @@ body {
     padding-left: 8%;
 }
 
-/*head section end*/
+/*head area end*/
 /* mission area start*/
 #mission-area {
     margin: 100px 0;
@@ -213,7 +213,7 @@ body {
     font-size: 17px;
     border:2px solid #FF5959;
 }
-/*contact section end*/
+/*contact area end*/
 /*footer area start*/
 footer{
     background-color: #0B0D17;
